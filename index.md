@@ -1,7 +1,7 @@
 
 # Selecting Data Lab
 
-In this lab, we will practice querying a database with various `SELECT` statements.
+In this lab, we will use SQLite browser to practice querying a database with various `SELECT` statements using `nasa` database that we created in the previous lab. 
 
 ## Objectives
 
@@ -9,7 +9,7 @@ In this lab, we will practice querying a database with various `SELECT` statemen
 2.  Use `SELECT` with specific `column_name(s)` to pull only certain columns from a table
 3.  Use `WHERE` and conditionals to pull more specific information from a table
 
-We will query from the same `planets` table featured in the Solar System lab.  The `planets` table is created in the `create.sql` file and already is seeded with data from the `seed.sql` file.  The relevant information is provided in the table below:
+We will query from the same `planets` table featured in the Solar System lab. Here is the information which we provided:
 
 |name   |color |num_of_moons|mass|rings|
 |-------|-------|-------|-------|-------|
@@ -24,7 +24,7 @@ We will query from the same `planets` table featured in the Solar System lab.  T
 
 ## Queries
 
-Write your queries inside the `select.py` file.  To get the tests in `test/index_test.py` to pass, add the correct query to the empty string returned by each function.
+Go to 'Execute SQL' tab in SQLite browser and execute all of the following queries.
 
 * `select_all_columns_and_rows` should return all of the data featured in the `planets` table
 
